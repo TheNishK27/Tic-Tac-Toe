@@ -98,4 +98,47 @@ html {
 .popup.hide {
     display: none;
 }
-
+@media (max-width:481px) {
+    .heading {
+        font-size: 2.5rem;
+        text-align: center;
+        color: white;
+        margin-top: 4em;
+        margin-bottom: 1em;
+    }
+    #restart {
+        font-size: 1em;
+        padding: 1em;
+        border-radius: 8px;
+        background: linear-gradient(90deg, #f118ea, #0fe2ea);
+        color: #ffffff;
+        border: none;
+        
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .container {
+        width: 90vmin;
+        height: 70vmin;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1rem;
+        margin-bottom: 2em;
+    }
+    .button-option {
+        background: #ffffff;
+        height: 22vmin;
+        width: 22vmin;
+        border: none;
+        border-radius: 8px;
+        font-size: 12vmin;
+        color: #d161ff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+}
